@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('C:\\Users\\GENge\\OneDrive\\Desktop\\New folder (3)\\Nunito_Sans\\NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf') format('truetype');
+    /* Add more src lines for different font weights/styles if needed */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /* Use the 'Nunito' font family in your styles */
+}
+
+
+#Intro-1{margin: 7rem 1px 0rem;}
+#Intro-1 p{
+    background-color: rgba(0, 0, 0, 0.036);
+    padding: 20px;
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.615);
+    box-shadow: 1px 2px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#Title-1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgba(40, 40, 40, 0.616);
+    color: rgb(11, 71, 2);}
+
+
+    #Title-2{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgba(0, 0, 0, 0.16);
+        box-shadow: 1px 2px 4px;
+        max-width: 90%;
+    color: rgb(15, 15, 15);
+    font-weight: 300;
+        margin: 20px auto;
+    }
+
+
+
+
+#intro-3 {display:flex;flex-wrap: wrap;align-items: center;
+    padding: 50px;
+    gap: 20px;background-color: rgba(165, 165, 166, 0.111);
+    justify-content: center;}
+#intro-3 div p{text-align: center;
+    background-color: black;color: white;
+    transition: 0.4s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+border-radius: 4px;padding: 4px;}
+#intro-3 div p:hover{
+    border-radius: 6px;cursor: pointer;
+    background-color:rgb(197, 197, 197);color: black;}
+#intro-3 div img{transition: 0.5s ease;cursor: pointer;border: 2px solid transparent;}
+
+#intro-3 div:hover img{
+    border: 2px solid rgb(0, 0, 0);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+        #father{
+            border: 1px solid whitesmoke;
+
+          border-radius: 10px;
+          background-color: rgba(0, 0, 0, 0.036);
+          position: relative;
+          display: flex;justify-content: center;
+          align-items: center;
+      overflow: hidden;
+      flex-grow: 1;
+          width: 200px;height: 250px;}
+
+
+
+      
+      #gengen::before{content: " ";
+        background-color: rgb(255, 255, 255);
+      inset: 3px;
+      z-index: -1;
+      border-radius: 10px;
+      
+      position: absolute;}
+      
+      #gengen::after{content: " ";
+      background-color: rgba(0, 68, 255, 0.892);
+      width: 500px;height: 40px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      z-index: -2;
+      position: absolute;
+      animation: aymen 30s linear infinite;
+      animation-play-state: running;
+      
+      }
+      
+      #gengen:hover::after{animation-play-state: paused;}
+      @keyframes aymen {
+      
+        0% {transform: translate(-50%,-50%) rotate(0deg);}
+        100% {transform: translate(-50%,-50%) rotate(360deg);}
+      }
+
+
+
+
+
+
+    @media (min-width:250px) and (max-width:500px)
+    {#Title-1{font-size: 1.1rem;
+        padding: 6px;
+        margin: 12rem 0.04rem 1rem;}
+        #Title-2{font-size: 1rem;}
+
+        #Intro-1 p{font-size: 1rem;padding: 20px 0px;width: 94%; }
+       
+    
+       
+    }
+
+    @media (min-width:251px) and (max-width:600px)
+    {
+   
+      
+       
+    }
+    
+    @media (min-width:601px) and (max-width:1000px)
+    {
+   
+ 
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
